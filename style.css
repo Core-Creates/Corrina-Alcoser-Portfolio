@@ -1,9 +1,24 @@
-nav{
+nav
+{
     color: rgb(161, 245, 217);
-    font-size: 40px;
+    font-size: 30px;
     height: 100px;
+    
+}
+nav h1
+{
+    margin-left: 40px;
+    float: center;
 }
 
-.navbar-toggler:active{
-    
+nav button
+{
+    float: right;
+    margin-right: 40px;
+}
+
+.nameMenu{
+    margin-left: 0px;
+    padding-left: 0px;
+
 }
