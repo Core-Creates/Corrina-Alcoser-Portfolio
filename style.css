@@ -120,7 +120,8 @@ main p
 @media screen and (max-width: 992px){
     #instructions{
         font-size: 25px;
-        line-height: 35px;
+        line-height: 28px;
+
         border: 1px;
         border-image: none;
         margin-top: 10px;
