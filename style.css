@@ -117,7 +117,17 @@ main p
     background-color: rgba(161, 245, 217, 0.589);
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px)
+{
+    main
+    {
+        text-align: center;
+        font-weight: bold;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    
     #instructions{
         font-size: 15px;
         line-height: 20px;
@@ -130,8 +140,8 @@ main p
     }
     img{
         float: left;
-        width: 80px;
-        height: 80px;
+        width: 150px;
+        height: 150px;
         margin: 0px;
         padding: 0px;
     }
