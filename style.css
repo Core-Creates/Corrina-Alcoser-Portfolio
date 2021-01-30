@@ -13,15 +13,16 @@ body{
 }
 
 /* Controls the header in the Navbar that says "Navbar" */
-nav h1
+header nav h1
 {
     font-size: 40px;
     float: left;
     color: rgb(161, 245, 217);
-    padding: 10px;
-    margin: 10px;
+    padding: 0px;
+    margin-bottom: 10px;
     grid-row: 1/2;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 
 
 }
@@ -32,6 +33,16 @@ down whenever you select the menu button */
     float: right;
     font-family: 'Courier New', Courier, monospace;
 
+}
+header h1
+{
+    margin: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgba(53, 25, 9, 0.747);
+    text-decoration-color: rgba(54, 20, 0, 0.589);
 }
 
 /* Main h1 formatting */
@@ -45,9 +56,13 @@ main
     
 }
 main img{
+
     float: left;
     border-radius: 50px 20px;
     margin-left: 20px;
+    border: 10px inset;
+    border-color: rgba(55, 168, 159, 0.418);
+
     
 }
 
@@ -57,7 +72,7 @@ main img{
     width: 350px;
     border-radius: 20px;
     font-size: 20px;
-    background-color: rgba(236, 248, 218, 0.637);
+    background-color: rgba(218, 248, 234, 0.411);
 
 }
 
@@ -66,7 +81,7 @@ figcaption
     float: left;
     font-weight: lighter;
     margin: 20px;
-    font-size: 10px;
+    font-size: 8px;
     font-style: italic;
 
 }
@@ -76,11 +91,11 @@ article p
     font-size: 25px;
     font-weight: normal;
     float: right;
-    padding-top: 40px;
-    margin: 40px;
-    margin-bottom: 0px;
-    background-color: rgba(144, 255, 222, 0.171);
+    border: 20px solid;
+    padding: 15px;
+    margin: 10px;
     border-radius: 10px;
-    border-image: ;
+    background-color: rgba(218, 248, 241, 0.637);
+    border-image:  url(39-394638_text-border-png-clipart.png) 16% round;
 
 }
