@@ -126,5 +126,8 @@ main p
         border-image: none;
         margin-top: 10px;
     }
+    img{
+        float: left;
+    }
 
 }
