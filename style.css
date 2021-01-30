@@ -89,13 +89,14 @@ figcaption
 article p
 {
     font-size: 25px;
+    line-height: 50px;
     font-weight: normal;
     float: right;
     border: 20px solid;
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
-    background-color: rgba(218, 248, 241, 0.637);
-    border-image:  url(39-394638_text-border-png-clipart.png) 16% round;
+    background-color: rgba(218, 248, 241, 0.596);
+    border-image:  url(39-394638_text-border-png-clipart.png) 25% round;
 
 }
