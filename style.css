@@ -1,31 +1,32 @@
-nav
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar-brand
 {
-    color: rgb(161, 245, 217);
-    font-size: 30px;
-    height: 100px;
+    
+    height: 70px;
     
 }
 nav h1
 {
-    margin-left: 40px;
-    float: center;
-}
-
-nav button
-{
+    font-size: 40px;
+    float: left;
     color: rgb(161, 245, 217);
+    margin: 10px;
+    grid-row: 1/2;
+
+
+}
+
+
+.nav-link{
     float: right;
-    margin-right: 40px;
-    
+    grid-row: 2/2;
 }
-.nav-item
+
+#menuButton
 {
-    flex-direction: row-reverse;
-    list-style-type: none;
-}
-
-.nameMenu{
-    margin-left: 0px;
-    padding-left: 0px;
-
+    grid-row: 1/2;
+    left: 60px;
+    float: right;
 }
