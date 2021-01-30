@@ -124,7 +124,9 @@ main p
 
         border: 1px;
         border-image: none;
-        margin-top: 10px;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     img{
         float: left;
