@@ -1,6 +1,7 @@
 /* Sets default fault of page to Courier New */
-*{
-    
+body{
+    background-image:url(Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg);
+    background-size: cover;
 }
 
 /* Adjusts navbar height */
@@ -47,6 +48,7 @@ main img{
     float: left;
     border-radius: 50px 20px;
     margin-left: 20px;
+    
 }
 
 #picInfo
@@ -55,6 +57,7 @@ main img{
     width: 350px;
     border-radius: 20px;
     font-size: 20px;
+    background-color: rgba(236, 248, 218, 0.637);
 
 }
 
@@ -76,8 +79,8 @@ article p
     padding-top: 40px;
     margin: 40px;
     margin-bottom: 0px;
-    /* width: 900px;
-    height: 20px; */
+    background-color: rgba(144, 255, 222, 0.171);
+    border-radius: 10px;
+    border-image: ;
 
 }
-
