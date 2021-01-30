@@ -76,7 +76,7 @@ main img{
     width: 350px;
     border-radius: 20px;
     font-size: 20px;
-    background-color: rgba(218, 248, 234, 0.411);
+    background-color: rgba(161, 245, 217, 0.589);
 
 }
 
@@ -91,7 +91,7 @@ figcaption
 
 }
 
-article p
+#instructions
 {
     font-size: 25px;
     line-height: 50px;
@@ -102,7 +102,17 @@ article p
     margin: 10px;
     border-radius: 10px;
     
-    background-color: rgba(218, 248, 241, 0.596);
+    background-color: rgba(161, 245, 217, 0.589);
     border-image:  url(39-394638_text-border-png-clipart.png) 25% round;
 
+}
+
+main p
+{
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: normal;    
+    background-color: rgba(161, 245, 217, 0.589);
 }
