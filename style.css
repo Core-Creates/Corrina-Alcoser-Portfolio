@@ -40,7 +40,6 @@ main
     font-weight: bolder;
     padding: 20px;
     margin: 20px;
-    font-size: 20px;
     font-family:monospace;
     
 }
@@ -64,26 +63,21 @@ figcaption
     float: left;
     font-weight: lighter;
     margin: 20px;
-    font-size: 5px;
+    font-size: 10px;
     font-style: italic;
 
 }
-article
-{
-    font-size: 20px;
-    font-weight: normal;
-    float: right;
-    /* left: 600px;
-    height: 200px;
-    width: 400px; */
 
-}
 article p
 {
+    font-size: 25px;
+    font-weight: normal;
     float: right;
-    width: 1000px;
-    height: 20px;
-    top: -1200px;
+    padding-top: 40px;
+    margin: 40px;
+    margin-bottom: 0px;
+    /* width: 900px;
+    height: 20px; */
 
 }
 
