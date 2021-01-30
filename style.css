@@ -116,3 +116,14 @@ main p
     font-weight: normal;    
     background-color: rgba(161, 245, 217, 0.589);
 }
+
+@media screen and (max-width: 992px){
+    #instructions{
+        font-size: 25px;
+        line-height: 35px;
+        border: 1px;
+        border-image: none;
+        margin-top: 10px;
+    }
+
+}
