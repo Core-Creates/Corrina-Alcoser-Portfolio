@@ -1,32 +1,33 @@
+/* Sets default fault of page to Courier New */
 *{
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* Adjusts navbar height */
 .navbar-brand
 {
     
     height: 70px;
     
 }
+
+/* Controls the header in the Navbar that says "Navbar" */
 nav h1
 {
     font-size: 40px;
     float: left;
     color: rgb(161, 245, 217);
+    padding: 10px;
     margin: 10px;
     grid-row: 1/2;
 
 
 }
 
-
+/* Controls the navigation links that drop 
+down whenever you select the menu button */
 .nav-link{
     float: right;
-    grid-row: 2/2;
+
 }
 
-#menuButton
-{
-    grid-row: 1/2;
-    left: 60px;
-    float: right;
-}
