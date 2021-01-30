@@ -1,6 +1,6 @@
 /* Sets default fault of page to Courier New */
 *{
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 /* Adjusts navbar height */
@@ -20,6 +20,7 @@ nav h1
     padding: 10px;
     margin: 10px;
     grid-row: 1/2;
+    font-family: 'Courier New', Courier, monospace;
 
 
 }
@@ -28,6 +29,19 @@ nav h1
 down whenever you select the menu button */
 .nav-link{
     float: right;
+    font-family: 'Courier New', Courier, monospace;
 
+}
+
+/* Main h1 formatting */
+main
+{
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 20px;
+    font-size: 60px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-style: oblique;
 }
 
