@@ -130,7 +130,8 @@ main p
     }
     img{
         float: left;
-        size: 40px 40px;
+        width: 100px;
+        height: 100px;
         margin: 0px;
         padding: 0px;
     }
