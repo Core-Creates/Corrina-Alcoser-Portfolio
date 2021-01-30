@@ -13,8 +13,15 @@ nav h1
 
 nav button
 {
+    color: rgb(161, 245, 217);
     float: right;
     margin-right: 40px;
+    
+}
+.nav-item
+{
+    flex-direction: row-reverse;
+    list-style-type: none;
 }
 
 .nameMenu{
