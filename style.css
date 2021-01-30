@@ -23,6 +23,7 @@ header nav h1
     grid-row: 1/2;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    background-color: transparent;
 
 
 }
@@ -41,8 +42,11 @@ header h1
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-decoration: underline;
+    font-size: 50px;
     color: rgba(53, 25, 9, 0.747);
     text-decoration-color: rgba(54, 20, 0, 0.589);
+    -webkit-text-stroke: 1px rgba(54, 20, 0, 0.589);
+    
 }
 
 /* Main h1 formatting */
@@ -83,6 +87,7 @@ figcaption
     margin: 20px;
     font-size: 8px;
     font-style: italic;
+    color: rgba(54, 20, 0, 0.589);
 
 }
 
@@ -96,6 +101,7 @@ article p
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
+    
     background-color: rgba(218, 248, 241, 0.596);
     border-image:  url(39-394638_text-border-png-clipart.png) 25% round;
 
