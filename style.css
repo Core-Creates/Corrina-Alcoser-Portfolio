@@ -134,8 +134,13 @@ article ul li a{
     text-decoration: none;
     float: left;
     text-align: left;
+    list-style-type: none;
 
+}
 
+ul
+{
+    list-style-type: none;
 }
 /* --------------------------------------------------------End of Main section formating--------------------------------------------- */
 
