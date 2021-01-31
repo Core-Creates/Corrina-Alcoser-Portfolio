@@ -87,6 +87,7 @@ figcaption
     margin: 20px;
     font-size: 8px;
     font-style: italic;
+    position: relative;
     color: rgba(54, 20, 0, 0.589);
 
 }
@@ -138,8 +139,8 @@ main p
         font-size: 15px;
     }
 
-    .card{
-        position: relative;
+    figcaption{
+        
         text-decoration: none;
         font-size: 10px;
         font-style: none;
