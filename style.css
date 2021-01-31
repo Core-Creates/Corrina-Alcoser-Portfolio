@@ -121,7 +121,7 @@ main p
 
 
 /* ---------------------------------------------------------------Adaptive Mobile layouts------------------------------------------- */
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 360px)
 {
     main
     {
@@ -133,9 +133,12 @@ main p
     }
     figcaption{
         float: left;
+        width: 330px;
+        height: 500px;
+        border-radius: 10px;
         font-weight: lighter;
-        margin: 20px;
-        font-size: 5px;
+        padding: 0px;
+        margin: 0px;
         font-style: italic;
         color: rgba(54, 20, 0, 0.589);
     }
@@ -146,10 +149,10 @@ main p
         float: left;
         font-size: 15px;
         line-height: 18px;
-        width: 800px;
+        width: 330px;
         border: 1px;
         border-image: none;
-        margin-left: 0px;
+        margin-left: 10px;
 
     }
     img{
