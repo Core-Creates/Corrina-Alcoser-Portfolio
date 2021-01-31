@@ -4,6 +4,8 @@ body{
     background-size: cover;
 }
 
+/* --------------------------------------Controls Header formatting-------------------------------------------------------------- */
+
 /* Adjusts navbar height */
 .navbar-brand
 {
@@ -49,6 +51,12 @@ header h1
     
 }
 
+/* ---------------------------------------Controls Header formatting-------------------------------------------------------------- */
+
+
+
+
+
 /* Main h1 formatting */
 main
 {
@@ -72,7 +80,7 @@ main img{
 
 #picInfo
 {
-    height: 60px;
+    height: 100px;
     width: 330px;
     margin-left: 10px;
     border-radius: 10px;
