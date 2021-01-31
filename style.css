@@ -155,6 +155,16 @@ main p
         font-style: italic;
         color: rgba(54, 20, 0, 0.589);
     }
+
+    #picInfo{
+        text-decoration: none;
+        font-size: 10px;
+        font-style: none;
+        line-height: 20px;
+        margin-left: 10px;
+        width: 80px;
+        height: 100px;
+    }
     
 
     
