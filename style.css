@@ -125,16 +125,23 @@ main p
     font-weight: normal;    
     background-color: rgba(161, 245, 217, 0.589);
 }
+#linkSection{
+    margin-bottom: 40px;
+    background-color: rgba(161, 245, 217, 0.589); */
+}
 
 article ul li {
     color: black;
-    /* -webkit-text-stroke: 1px rgba(54, 20, 0, 0.589); */
-    background-color: rgba(161, 245, 217, 0.589);
+
     font-size: 20px;
     text-decoration: none;
-    float: left;
-    text-align: left;
+
+
     list-style-type: none;
+    size: 300px;
+    margin-bottom: 10px;
+    display: block;
+    clear: both;
 
 }
 
