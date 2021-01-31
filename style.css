@@ -125,6 +125,18 @@ main p
     font-weight: normal;    
     background-color: rgba(161, 245, 217, 0.589);
 }
+
+article ul li a{
+    color: black;
+    /* -webkit-text-stroke: 1px rgba(54, 20, 0, 0.589); */
+    background-color: rgba(161, 245, 217, 0.589);
+    font-size: 20px;
+    text-decoration: none;
+    float: left;
+    text-align: left;
+
+
+}
 /* --------------------------------------------------------End of Main section formating--------------------------------------------- */
 
 
