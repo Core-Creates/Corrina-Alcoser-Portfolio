@@ -131,21 +131,33 @@ main p
         margin: 0px;
         
     }
-    figcaption{
-        float: left;
-        width: 330px;
-        height: 500px;
-        border-radius: 5px;
-        font-weight: lighter;
+
+    main p
+    {
+        font-size: 15px;
+    }
+
+    .card{
+        font-size: 0.5px;
+        font-style: normal;
+        line-height: 18px;
         padding: 0px;
         margin: 0px;
+        float: left;
+        width: 80px;
+        height: 100px;
+        border-radius: 5px;
+        font-weight: lighter;
+
         font-style: italic;
         color: rgba(54, 20, 0, 0.589);
     }
+    
 
     
     #instructions{
 
+        font-size: 15px;
         float: left;
         font-size: 15px;
         line-height: 18px;
