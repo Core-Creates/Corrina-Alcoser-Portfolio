@@ -134,21 +134,23 @@ main p
 
     main p
     {
+        position: relative;
         font-size: 15px;
     }
 
     .card{
-        font-size: 0.5px;
-        font-style: normal;
-        line-height: 18px;
+        position: relative;
+        text-decoration: none;
+        font-size: 10px;
+        font-style: none;
+        line-height: 20px;
+        margin-left: 10px;
         padding: 0px;
         margin: 0px;
-        float: left;
         width: 80px;
-        height: 100px;
-        border-radius: 5px;
+        height: 80px;
+        border-radius: 10px;
         font-weight: lighter;
-
         font-style: italic;
         color: rgba(54, 20, 0, 0.589);
     }
@@ -168,6 +170,7 @@ main p
 
     }
     img{
+        position: relative;
         border-radius: 100px;
         float: left;
         width: 320px;
