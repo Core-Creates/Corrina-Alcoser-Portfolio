@@ -126,7 +126,7 @@ main p
     background-color: rgba(161, 245, 217, 0.589);
 }
 
-article ul li a{
+article ul li {
     color: black;
     /* -webkit-text-stroke: 1px rgba(54, 20, 0, 0.589); */
     background-color: rgba(161, 245, 217, 0.589);
@@ -138,10 +138,7 @@ article ul li a{
 
 }
 
-ul
-{
-    list-style-type: none;
-}
+
 /* --------------------------------------------------------End of Main section formating--------------------------------------------- */
 
 
