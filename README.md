@@ -7,4 +7,4 @@ Homework 02 I will be using Bootstrap CSS Framework to create a mobile responsiv
 
 ![Alt text](https://github.com/Core-Creates/Homework-02-Bootstrap-Responsive-Layout/blob/main/Screenshot_2021-02-02%20Webpage.png)
 ![Alt text](https://github.com/Core-Creates/Homework-02-Bootstrap-Responsive-Layout/blob/main/Screenshot_2021-02-01%20Webpage(2).png)
-![Alt text](https://core-creates.github.io/Homework-02-Bootstrap-Responsive-Layout/portfolio.html)
+![Alt text](https://github.com/Core-Creates/Homework-02-Bootstrap-Responsive-Layout/blob/main/Screenshot_2021-02-02-2%20Webpage.jpg)
