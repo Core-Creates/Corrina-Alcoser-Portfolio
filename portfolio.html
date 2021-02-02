@@ -3,6 +3,7 @@
 
 
 <!--------------- Beginning of Head ---------------------------------------------------------------------------------------------------->
+
 <head>
     <meta charset="UTF-8">
 
@@ -10,8 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Link ref to bootstrap page -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 
 
@@ -19,8 +20,9 @@
     <link rel="stylesheet" href="style.css">
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 
 
     <title>Webpage</title>
@@ -31,14 +33,15 @@
 
 
 <!-- Beginning of Body -->
+
 <body>
 
     <!--- Beginning of Header --->
-    <header> 
+    <header>
 
         <!-------------- Beginning of Nav ----------------->
         <nav class="navbar navbar-dark bg-dark">
-            
+
             <!-------------- Beginning of container-fluid class container ------------->
             <div class="container-fluid">
 
@@ -48,9 +51,9 @@
                 </a>
 
                 <!-- Menu Button -->
-                <button class="navbar-toggler dropdown-toggle" id="navbarDropdown" type="button" data-bs-toggle="collapse" 
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                aria-expanded="false" aria-label="Toggle navigation"> Menu
+                <button class="navbar-toggler dropdown-toggle" id="navbarDropdown" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> Menu
 
                     <span class="navbar-toggler-icon"></span>
 
@@ -61,7 +64,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Unorder list for collapsed Menu -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        
+
                         <!-- Nav list item -->
                         <li class="nav-item">
 
@@ -89,8 +92,8 @@
 
                             <!-- Contact link -->
                             <a class="nav-link" href="contact.html">
-                                    Contact
-                                    <span></span><span></span>
+                                Contact
+                                <span></span><span></span>
                             </a>
                         </li>
 
@@ -112,7 +115,7 @@
                 </div>
                 <!-------------------------------------------------- Ending of Collapsed content under Menu Button ------------------------>
 
-            
+
             </div>
             <!---------------------------------------------- Ending of div with Containerfluid class -------------------------------------->
 
@@ -121,34 +124,40 @@
         <h1>Portfolio</h1>
     </header>
     <!--------------------------- Endding of Header --------------------------------------------------------------------------------------->
-    
+
 
     <!-- Beginning of Main Section -->
     <main>
         <!-- Beginning of article that lists Core's professional accounts -->
 
-        <figure class="portfolioPics">
-            <img src="Screenshot_2021-01-24%20website.jpg" 
-            alt="Picture of Horisen Mock Marketing Website I made accessible">
+        <div class="row">
+            <div class="col-sm-6">
+                <figure class="portfolioPics">
+                    <img src="Screenshot_2021-01-24%20website.jpg"
+                        alt="Picture of Horisen Mock Marketing Website I made accessible">
 
-        </figure>
+                </figure>
+            </div>
+            
+            <div class="col-sm-6">
+            <figure class="portfolioPics">
+                <img src="Screenshot_2021-02-02 Document.png" alt="Picture of personal website I made">
 
-        <figure class="portfolioPics">
-            <img src="" alt="Picture of personal website I made">
+            </figure>
+        </div>
+        </div>
 
-        </figure>
 
-        
     </main>
     <!---------------------------------- Ending on Main Section ---------------------------------------------------------------------->
-    
+
     <div class="row">
         <div class="col-sm-12">
             <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
                 <div class="container text-center">
                     <small>Copyright &copy; Core's Website</small>
-                  </div>
-                
+                </div>
+
             </footer>
         </div>
     </div>

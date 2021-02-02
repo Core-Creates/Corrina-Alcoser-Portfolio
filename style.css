@@ -194,8 +194,9 @@ button
 
 .portfolioPics img
 {
-    height: 450px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
     border-radius: 0;
     position: relative;
     
