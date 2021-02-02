@@ -167,6 +167,14 @@ button{
 
 }
 
+#coresPic{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    float: center;
+    border-width: 40px;
+}
+
 
 /* --------------------------------------------------------End of Main section formating--------------------------------------------- */
 
