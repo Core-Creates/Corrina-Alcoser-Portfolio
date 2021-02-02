@@ -260,16 +260,50 @@ button{
     }
 
     #linkSection{
-        width: 400px;
-        height: 300px;
+        width: 320px;
+        height: 180px;
         line-height: 20px;
         font-size: 15px;
 
     }
     .card{
-        width: 400px;
-        height: 280px;
+        width: 360px;
+        left: 10px;
+        height: 200px;
         font-size: 5px;
+
+    }
+    #positions{
+    
+        padding-left: 5px;
+        position: relative;
+        
+        text-align: left;
+        
+        
+    }
+    
+    #coresPic{
+        position: relative;
+        width: 310px;
+        height: 200px;
+        float: center;
+        border-width: 10px;
+    }
+
+    article p {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    #contactForm{
+        width: 310px;
+        height: 250px;
+        margin-bottom: 40px;
+        font-size: 20px;
+        text-align: center;
+
+
     }
 
 }
@@ -286,5 +320,23 @@ button{
     .card{
         width: 400px;
         height: 280px;
+    }
+
+    #positions{
+    
+        padding-left: 5px;
+        position: relative;
+        font-size: 10px;
+        text-align: left;
+        
+    }
+    
+    #coresPic{
+        position: relative;
+        width: 300px;
+        height: 200px;
+        float: center;
+        border-width: 10px;
+        line-height: 10px;
     }
 }
