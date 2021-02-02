@@ -131,120 +131,110 @@
 
 
     <!-- Beginning of Main Section -->
-    <main>
-        <!-- Beginning of article that lists Core's professional accounts -->
-        <article id="linkSection" class="card">
-            <p>
-                Below are links to Core's professional accounts.
-            </p>
+    <main class="row">
+        <div class="col-sm-6">
+            <!-- Beginning of article that lists Core's professional accounts -->
+            <article id="linkSection" class="card">
+                <p>
+                    Below are links to Core's professional accounts.
+                </p>
 
-            <div class="row">
-                <div class="col-sm-4">
-                    <!-- Purposely empty -->
-                </div>
 
-                <div class="col-sm-4">
-                    <ul>
+                <ul>
+                    <!-- div for linkedin profile -->
+                    <div id="links">
+
                         <li>
                             LinkedIn:
                             <button>
                                 <a href="https://www.linkedin.com/in/corrina-alcoser" target="_blank">
                                     Profile
                                 </a>
+                            </button>
+
+                    </div>
+
+                    <!-- div for github profile -->
+                    <div id="links">
+
+                        <li>
+                            Github:
+                            <button>
+                                <a href="https://github.com/Core-Creates" target="_blank">
+                                    Profile
+                                </a>
 
 
                             </button>
 
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-4">
-                    <!-- intentionally left empty -->
-                </div>
-                <div class="col-sm-4">
-
-                    <li>
-                        Github:
-                        <button>
-                            <a href="https://github.com/Core-Creates" target="_blank">
-                                Profile
-                            </a>
-
-
-                        </button>
-
-                    </li>
-                </div>
-            </div>
-
-            <li>
-                Unity Games:
-                <button>
-                    <a href="https://dashboard.unity3d.com/organizations/1374728059031/settings/projects?organization=5fc13a69c3729e543237b0ba"
-                        target="_blank">
-
-                        Profile
-                    </a>
-
-                </button>
-            </li>
-
-            <li>
-                Twitter:
-                <button>
-                    <a href="https://twitter.com/AlcoserCorrina" target="_blank">
-                        Profile
-                    </a>
-                </button>
-            </li>
-
-            </ul>
-
-
-        </article>
-
-
-        <!-- The Contact form that has input area for email and message -->
-        <div class="row">
-
-            <div class="col-sm-4">
-                <!-- This is intentionally blank -->
-            </div>
-
-            <div class="col-sm-4">
-                <form class="card">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-
+                        </li>
                     </div>
-            </div>
 
-            <!-- Message section of the form -->
-            <div class="col-sm-4">
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message Area</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">
-                                Write your message here.
-                            </textarea>
+                    <div id="links">
+
+                        <li>
+
+                            Unity:
+                            <button>
+                                <a href="https://dashboard.unity3d.com/organizations/1374728059031/settings/projects?organization=5fc13a69c3729e543237b0ba"
+                                    target="_blank">
+
+                                    Profile
+                                </a>
+
+                            </button>
+                        </li>
+                    </div>
+
+
+                    <div id="links">
+
+                        <li>
+                            Twitter:
+                            <button>
+                                <a href="https://twitter.com/AlcoserCorrina" target="_blank">
+                                    Profile
+                                </a>
+
+                            </button>
+                        </li>
+                    </div>
+
+                </ul>
+
+            </article>
+
+            <!--------------------------------------- Links area ends -------------------------------------------------------->
+
+
+
+
+
+
+            <!------------------------ The Contact form that has input area for email and message --------->
+            <div id="contactForm" class="row">
+
+                <div class="col-sm-4">
+                    <form class="card">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message Area</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                rows="3">Write Message Here</textarea>
+                            <button type="submit" class="btn btn-dark">Submit</button>
+
+                        </div>
+                    </form>
                 </div>
-                <button type="submit" class="btn btn-dark">Submit</button>
-            </div>
-
-            <div class="col-sm-4">
 
             </div>
 
 
-            </form>
         </div>
 
-
         </div>
-
-
 
     </main>
     <!---------------------------------- Ending on Main Section ---------------------------------------------------------------------->
