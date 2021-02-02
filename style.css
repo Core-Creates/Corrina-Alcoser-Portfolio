@@ -192,11 +192,14 @@ button
     height: 200px;
 }
 
-.portfolioPics
+.portfolioPics img
 {
+    height: 450px;
+    width: 400px;
+    border-radius: 0;
     position: relative;
-    height: 350px;
-    width: 350px;
+    
+
     
 }
 
