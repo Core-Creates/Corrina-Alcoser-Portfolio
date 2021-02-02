@@ -241,10 +241,32 @@ button{
         padding: 0px;
     }
 
+    #linkSection{
+        width: 400px;
+        height: 300px;
+        line-height: 20px;
+        font-size: 15px;
+
+    }
+    .card{
+        width: 400px;
+        height: 280px;
+        font-size: 5px;
+    }
+
 }
 /* -----------------------------------------------------------End of Mobile layout for  */
 
-@media screen and (min-width: 900px)
+@media screen and (max-width: 640px) and (min-width: 500px)
 {
-
+    #linkSection{
+        width: 400px;
+        height: 300px;
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .card{
+        width: 400px;
+        height: 280px;
+    }
 }
