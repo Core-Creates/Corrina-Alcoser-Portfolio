@@ -86,6 +86,7 @@ main img{
     border-radius: 10px;
     font-size: 15px;
     background-color: rgba(161, 245, 217, 0.589);
+    position: relative;
 
 }
 
@@ -127,32 +128,42 @@ main p
 }
 #linkSection{
     margin-bottom: 40px;
-    width: 50%;
-    height: 60%;
+    width: 700px;
+    height: 400px;
     background-color: rgba(161, 245, 217, 0.589); */
     color: black;
 
-    font-size: 15px;
+    font-size: 25px;
     text-decoration: none;
     text-align: start;
     size: 300px;
+    border-radius: 20px;
+
+    line-height: 80px;
+    position: relative;
 
 }
 
 button{
-    height: 25px;
+
     text-align: center;
     line-height: 20px;
     border-radius: 20px;
-    color: rgb(0, 4, 255);
-    background-color: rgba(208, 255, 0, 0.459);
+    color: rgb(0, 18, 56);
+    background-color: rgba(253, 255, 119, 0.459);
+    
 }
 
 
+.card{
 
-#contactForm
-{
-    width: 60%;
+    position: relative;
+    font-size: 25px;
+    font-family: monospace;
+    align-content: center;
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
 
 }
 
