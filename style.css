@@ -192,12 +192,12 @@ button
     height: 200px;
 }
 
-#portfolioPics
+.portfolioPics
 {
     position: relative;
     height: 350px;
     width: 350px;
-    border-radius: 0px;
+    
 }
 
 /* --------------------------------------------------------End of Main section formating--------------------------------------------- */
