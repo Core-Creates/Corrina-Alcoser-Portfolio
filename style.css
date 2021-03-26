@@ -212,7 +212,23 @@ button
 
 
 /* ---------------------------------------------------------------Adaptive Mobile layouts------------------------------------------- */
-@media screen and (max-width: 360px)
+@media screen and (max-width: 290px){
+    footer {
+        width: 290px;
+    }
+    header{
+        width: 290px;
+    }
+    .card{
+        width: 60%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 400px)
 {
     main
     {
@@ -325,10 +341,20 @@ button
 
     }
 
-}
-/* -----------------------------------------------------------End of Mobile layout for  */
+    
+    footer {
+        width: 110%;
+    }
+    header{
+        width: 110%;
+    }
 
-@media screen and (max-width: 640px) and (min-width: 500px)
+}
+
+
+
+
+@media screen and (max-width: 640px) and (min-width: 410px)
 {
     #linkSection{
         width: 400px;
@@ -337,8 +363,12 @@ button
         font-size: 15px;
     }
     .card{
-        width: 400px;
-        height: 280px;
+        width: 500px;
+        /* width: 150%; */
+        /* height: 280px; */
+    }
+    article{
+        width: 500px;
     }
 
     #positions{
@@ -358,4 +388,23 @@ button
         border-width: 10px;
         line-height: 10px;
     }
+
+    header{
+        width: 150%;
+    }
+    footer{
+        width: 150%;
+    }
 }
+
+@media screen and (min-width: 650px){
+    #coresPic{
+        clear: both;
+        display: block;
+    }
+    #article{
+        clear: both;
+        display: block;
+    }
+}
+/* -----------------------------------------------------------End of Mobile layout for  */
